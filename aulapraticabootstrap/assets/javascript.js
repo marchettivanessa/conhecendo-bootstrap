@@ -11,8 +11,8 @@ document.getElementById("botaoEnviar").addEventListener("click", validaFormulari
 
 
 function validaFormulario(){
-  if(nome.value != "" && sobrenome.value != "" && usuario.value != "" 
-  && cidade.value !="" && estado.value != ""){
+  if(nome.value != "" && sobrenome.value != "" && usuario != "" 
+  && cidade.value !="" && estad.value != ""){
   alert("Prontinho! Você receberá as novidades por email!")
   }else{
     alert("Por favor, preencha todos os campos.")
